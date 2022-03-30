@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "community_ilu_app.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

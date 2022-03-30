@@ -19,8 +19,9 @@ let package = Package(
                 .process("Resources")
             ],
             plugins: [
-                .plugin(name: "RswiftPlugin", package: "Plugins"),
-                .plugin(name: "SwiftLintPlugin", package: "Plugins")
+                //.plugin(name: "RswiftPlugin", package: "Plugins"),
+                //.plugin(name: "SwiftLintPlugin", package: "Plugins")
+                .plugin(name: "SwiftGenPlugin", package: "Plugins")
             ]),
         .testTarget(
             name: "UIComponentsTests",
